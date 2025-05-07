@@ -10,9 +10,7 @@ public class IfElse {
 		
 		int numero = Integer.parseInt(value);
 		
-		numero = numero % 2;
-		
-		if (numero == 0) {
+		if (numero %2 == 0) {
 			System.out.println("O numero é par!");
 		} else {
 			System.out.println("O numero é impar!");
