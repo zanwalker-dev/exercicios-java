@@ -1,0 +1,19 @@
+TIPO PRIMITIVOS I:
+
+LETRAS ----------------------------------------------------------------------------
+
+	CHAR = '' -> LETRAS ISOLADAS
+	BOOLEAN = TRUE / FALSE -> BOLEANO
+
+NUMEROS ---------------------------------------------------------------------------
+
+	INTEIROS:
+		EX: -3, -2, -1, 0, 1, 2, 3
+		BYTE = 1 BYTE
+		SHORT = 2 BYTES
+		INT = 4 BYTES  -> LITERAL POR PADRÃO
+		LONG = 8 BYTES
+		
+	FLUTUANTES:-1.0, -0.5, 0.0, 0.5, 1.0
+		FLOAT = 4 BYTES
+		DOUBLE = 8 BYTES -> LITERAL POR PADRÃO
