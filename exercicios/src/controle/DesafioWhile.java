@@ -18,8 +18,8 @@ public class DesafioWhile {
                 total += nota;
                 qtdNotas++;
                 System.out.println("Digite -1 para sair ");
-            } else {
-                System.out.println("Nota invalida!");
+            } else if(nota != -1){
+                System.out.println("Nota inválida!");
             }
 
         }
