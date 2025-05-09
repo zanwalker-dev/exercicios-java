@@ -16,6 +16,7 @@ public class ProdutoTeste {
         System.out.println(p1.nome + " " + p1.preco + " " + p1.desconto);
         System.out.println(p2.nome + " " + p2.preco + " " + p2.desconto);
 
-        System.out.printf("O preço do %s com desconto é R$ %.2f ",p1.nome, p1.precoComDesconto());
+        System.out.printf("O preço do %s com desconto é R$ %.2f \n",p1.nome, p1.precoComDesconto(0));
+        System.out.printf("O preço do %s com desconto do gerente é R$ %.2f ",p1.nome, p1.precoComDesconto(0.1));
     }
 }
