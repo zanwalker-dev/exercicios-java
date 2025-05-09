@@ -4,7 +4,7 @@ public class Produto {
 
     String nome;
     double preco;
-    double desconto;
+    static double desconto;
 
     Produto(){} //Construtor padrão pq eu criei um que pedia nome
 
