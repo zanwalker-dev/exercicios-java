@@ -4,7 +4,7 @@ public class ProdutoTeste {
 
     public static void main(String[] args) {
 
-        Produto.desconto = 0.25;
+        Produto.desconto = 0.25; //Passando os descontos agora via static
 
         Produto p1 = new Produto();
         p1.nome = "Tablet";
