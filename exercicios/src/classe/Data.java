@@ -6,4 +6,8 @@ public class Data {
     String mes;
     String ano;
 
+    String obterDataFormatada(){
+        return dia + "/" + mes + "/" + ano;
+    }
+
 }
