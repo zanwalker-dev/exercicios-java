@@ -9,8 +9,9 @@ public class BreakRotulado {
                     break externo;
                 }
 
-                System.out.printf("%d %d\n", i, j);
+                System.out.printf("[%d,%d]", i, j);
             }
+            System.out.println();
         }
     }
 }
