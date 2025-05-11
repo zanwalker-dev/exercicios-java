@@ -10,7 +10,9 @@ public class Usuario {
 
         Usuario outro = (Usuario) obj;
 
-        if(obj instanceof Usuario){
+        //FALTA USAR O HASHCODE
+
+        if(obj instanceof Usuario){ //garantindo que o objeto comparado é realmente do tipo usuário para evitar erros
 
             boolean nomeIgual = outro.nome.equals(this.nome);
             boolean emailIgual = outro.email.equals(this.email);
