@@ -10,10 +10,13 @@ public class Usuario {
 
         Usuario outro = (Usuario) obj;
 
-        boolean nomeIgual = outro.nome.equals(this.nome);
-        boolean emailIgual = outro.email.equals(this.email);
+        if(obj instanceof Usuario){
 
-        return nomeIgual && emailIgual;
+            boolean nomeIgual = outro.nome.equals(this.nome);
+            boolean emailIgual = outro.email.equals(this.email);
 
+            return nomeIgual && emailIgual;
+        }
+        return false;
     }
 }
