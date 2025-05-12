@@ -40,9 +40,17 @@ public class ConjuntoBagunçado {
         System.out.println("Valores de nums são: " + nums);
 
         //INTERSEÇÕES
+        //ADDALL --> união entre dois conjuntos;
+//        conjunto.addAll(nums);
+//        System.out.println("Agora os valores de num são: " + conjunto);
 
-        //ADDALL --> adciona todos os objs de uma collection a outra;
-        conjunto.addAll(nums);
+        //RETAIN --> sobre somento os valores retidos, que são comuns as duas collections;
+        conjunto.retainAll(nums);
         System.out.println("Agora os valores de num são: " + conjunto);
+
+        //CLEAR --> limpa os objs contidos na collection;
+        conjunto.clear();
+        System.out.println(conjunto);
+
     }
 }
