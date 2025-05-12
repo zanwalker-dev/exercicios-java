@@ -2,7 +2,7 @@ package collections;
 
 import java.util.HashSet;
 
-public class ConjuntoBagunçado {
+public class SetConjuntoBagunçado {
     //EXEMPLO DO QUE NÃO FAZER, tipos heterogeneos.
     public static void main(String[] args) {
 

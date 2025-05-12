@@ -5,7 +5,7 @@ import java.util.Set;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-public class ConjuntoOrganizado {
+public class SetConjuntoOrganizado {
     //Exemplo de como organizar, forma homogênea(apenas um tipo);
     public static void main(String[] args) {
 
