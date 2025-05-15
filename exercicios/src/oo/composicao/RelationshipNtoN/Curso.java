@@ -1,4 +1,4 @@
-package oo.composicao;
+package oo.composicao.RelationshipNtoN;
 
 import java.util.ArrayList;
 import java.util.List;

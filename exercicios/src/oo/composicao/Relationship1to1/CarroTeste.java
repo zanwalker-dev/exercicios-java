@@ -1,4 +1,4 @@
-package oo.composicao;
+package oo.composicao.Relationship1to1;
 
 public class CarroTeste {
 
