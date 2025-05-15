@@ -4,9 +4,7 @@ public class Jogo {
 
     public static void main(String[] args) {
 
-        Jogador heroi = new Heroi();
-        heroi.x = 10;
-        heroi.y = 10;
+        Jogador heroi = new Heroi(10,10);
 
         Jogador vilao = new Vilao();
         vilao.x = 10;
