@@ -6,7 +6,7 @@ public class Jogo {
 
         Jogador heroi = new Heroi(10,10);
 
-        Jogador vilao = new Vilao();
+        Jogador vilao = new Vilao(10,10);
         vilao.x = 10;
         vilao.y = 11;
 

@@ -3,8 +3,8 @@ package oo.heranca.desafio;
 public class CarroTeste {
 
     public static void main(String[] args) {
-        Carro c1 = new Civic();
-        Carro c2 = new Escort();
+        Carro c1 = new Civic(15);
+        Carro c2 = new Escort(30);
 
         c1.acelerar();
         c1.acelerar();

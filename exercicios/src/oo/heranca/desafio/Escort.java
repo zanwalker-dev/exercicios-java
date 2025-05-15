@@ -4,9 +4,17 @@ public class Escort extends Carro{
 
     String nome = "Escort";
 
+    Escort(int velocidadeMaxima){
+        super(velocidadeMaxima);
+    }
+
     @Override
-    void acelerar() { //sobrescrevendo de forma simplificada
-        velocidade += 15;
+    void acelerar(){
+        if(velocidade + 15 > VELOCIDADE_MAXIMA){
+            velocidade = VELOCIDADE_MAXIMA;
+        } else {
+            velocidade = velocidade + 15;
+        }
     }
 
     @Override
