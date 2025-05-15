@@ -10,6 +10,7 @@ public class CompraTeste {
         c1.itens.add(new Item("Webcam", 1, 240.00));
 
         System.out.println(c1.itens.size());
+        System.out.println(c1.getValorTotal());
 
     }
 
