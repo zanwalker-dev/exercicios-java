@@ -21,7 +21,6 @@ public class Jogador {
             return false;
         }
 
-
     }
 
     boolean andar(Direcao direcao){
