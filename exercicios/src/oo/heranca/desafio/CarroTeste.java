@@ -3,9 +3,10 @@ package oo.heranca.desafio;
 public class CarroTeste {
 
     public static void main(String[] args) {
-        Carro c1 = new Civic(15);
-        Carro c2 = new Escort(30);
+        Carro c1 = new Civic(240);
+        Escort c2 = new Escort(380);
 
+        c1.acelerar();
         c1.acelerar();
         c1.acelerar();
         c1.acelerar();
@@ -15,6 +16,9 @@ public class CarroTeste {
         c2.acelerar();
         c2.acelerar();
         c2.acelerar();
+        c2.ligarTurbo();
+        c2.ligarAr();
+//        c2.desligarTurbo();
         c2.acelerar();
         System.out.printf("Velocidade do %s é de %d.",c2.toString(), c2.velocidade);
 
