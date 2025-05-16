@@ -19,5 +19,15 @@ public class Foreach {
 
         System.out.println("\nMethod reference : ");
         aprovados.forEach(System.out::println);
+
+        System.out.println("\nLambda #02: ");
+        aprovados.forEach(nome -> meuImprimir(nome)); //mét0do callback
+
+        System.out.println("\nMethod reference usando callback : ");
+        aprovados.forEach(Foreach::meuImprimir);
+    }
+
+    static void meuImprimir(String nome){
+        System.out.println("oi, meu nome é " + nome);
     }
 }
