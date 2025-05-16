@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.function.Consumer;
 
 public class Consumidor {
-
+    //Recebe um parametro e não retorna nada
     public static void main(String[] args) {
         Consumer<Produto> imprimir = p -> System.out.println(p.nome);
 
