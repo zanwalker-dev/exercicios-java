@@ -1,9 +1,9 @@
 package excessao.personalizadaA;
 
-public class NumeroNegativoException extends RuntimeException {
+public class NumeroForaIntervaloException extends RuntimeException {
 
     private String nomeDoAtributo;
-    NumeroNegativoException( String nomeDoAtributo) {
+    NumeroForaIntervaloException(String nomeDoAtributo) {
         this.nomeDoAtributo = nomeDoAtributo;
     }
 
