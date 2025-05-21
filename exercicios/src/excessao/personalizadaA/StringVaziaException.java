@@ -1,4 +1,4 @@
-package excessao.personalizada;
+package excessao.personalizadaA;
 
 public class StringVaziaException extends RuntimeException {
 
