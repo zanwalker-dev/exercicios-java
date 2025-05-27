@@ -10,7 +10,7 @@ public class CaixaNumeroTeste {
 
         System.out.println(caixaA.abrir());
 
-        CaixaNumero<Integer> caixaB = new CaixaNumero<>();
+        CaixaNumero<Integer> caixaB = new CaixaNumero<>(); //tanto o int quanto o double extends tipo Number
 
         caixaB.guardar(77);
 
