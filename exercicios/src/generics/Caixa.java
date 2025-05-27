@@ -1,14 +1,14 @@
 package generics;
 
-public class Caixa<TYPE> {
+public class Caixa<T> {
 
-    private TYPE coisa;
+    private T coisa;
 
-    public void guardar(TYPE coisa) {
+    public void guardar(T coisa) {
         this.coisa = coisa;
     }
 
-    public TYPE abrir() {
+    public T abrir() {
         return coisa;
     }
 }
