@@ -1,12 +1,10 @@
 package generics;
 
-import java.util.Optional;
-import java.util.SortedSet;
-import java.util.TreeSet;
+import java.util.*;
 
 public class Pares<C extends Number, V> {
 
-    private final SortedSet<Par<C, V>> itens = new TreeSet<>();
+    private final Set<Par<C, V>> itens = new HashSet<>();
 
     public void adicionar(C chave, V valor){
         if(chave == null) return;
