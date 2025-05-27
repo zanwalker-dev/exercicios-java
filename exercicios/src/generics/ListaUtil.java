@@ -12,4 +12,9 @@ public class ListaUtil {
         return lista.getLast();
     }
 
+    public static <A, B, C> C teste(A parametroA, B parametroB){ //EXTRA exemplo de parametros genericos
+        C teste = null;
+        return teste;
+    }
+
 }
