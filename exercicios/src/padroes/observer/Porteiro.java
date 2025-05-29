@@ -27,7 +27,7 @@ public class Porteiro {
                 //Criar evento
                 EventoChegadaAniversariante evento = new EventoChegadaAniversariante(new Date());
                 //Notificar observadores
-                observadores.stream().forEach((observador) -> observador.chegou(evento))
+                observadores.stream().forEach((observador) -> observador.chegou(evento));
             } else {
                 System.out.println("Alarme falso");
             }
